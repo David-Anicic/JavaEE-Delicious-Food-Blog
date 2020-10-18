@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+
+body {
+  font-size: 18px;
+}
+
+.auth {
+	float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+  color: #4CAF50;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.container {
+	margin: 0px;
+}
+
+#divZaRecept {
+	width: 50%;
+	height: 250px;
+	margin: auto;
+	margin-top: 5%;
+	padding: 5%;
+	border: 1px black solid;
+	border-radius: 5%;	
+	overflow: hidden;
+}
+
+#divZaRecept : img {
+	float: left;
+	display: inline;
+}
+
+#divZaRecept : h3 {
+	float: left;
+	color: black;
+}
